@@ -1246,6 +1246,9 @@ _clean_files()
 		make clean
 		cd "$ACTUAL_DIR"
 	fi
+
+	print ok "$_PRESS_ANY_KEY_TO_CONTINUE"
+	read a
 }
 
 _start_build()
